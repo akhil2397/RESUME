@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body>
+    <h3>Contact details</h3>
+    <ul>
+      <li>H.no:8-528/1</li>
+      <li>Street: Hanuman nagar</li>
+      <li>District : Karimanagar</li>
+      <li>pin code:505001</li>
+      <li>Email-id:akhilhamishetti@gmail.com</li>
+    </ul>
+<!--<form class="" action="index.html" method="post">this was default attributes we get when we type and enter form--(action will take user to index.html page when we click on submit button)-->
+  <form action="mailto:akhilhamishetti@gmail.com" method="post" enctype="text/plain">
+  <label>Your Name:</label>
+  <input type="text" name="yourName"value=""> <!-- to type the info. we need text ox--><br>
+  <!--<input type="color" name=""value=""> REFER doc for more input types-->
+  <label> Email</label>
+  <input type="email" name="yourEmail"value=""><br><!-- emal type will validate if entered email is correct like if it has @-->
+  <label> Your Message:</label><br>
+  <textarea name ="yourMessgae" rows="10" cols="30"></textarea><br>
+  <input type="submit" name="">
+</form>
+  </body>
+</html>
